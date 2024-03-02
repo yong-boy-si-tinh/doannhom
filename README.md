@@ -10,7 +10,6 @@ import java.util.ArrayList;
 	}
 
 	abstract class TV implements IELECTRONICE_DEVICE {
-		String acvfdgfđfgdgfdfgdfgdg;
 		private String tvID;
 		private String manifacturer;
 		private String entryDate;
@@ -18,12 +17,6 @@ import java.util.ArrayList;
 		private double num;
 
 		TV() {
-			this.tvID = "";
-			this.manifacturer = "";
-			this.entryDate = "";
-			this.price = 0;
-			this.num = 0;
-		
 			this.tvID = "";
 			this.manifacturer = "";
 			this.entryDate = "";
